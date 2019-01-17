@@ -1,0 +1,203 @@
+@media screen and (max-width: 1200px){
+	
+.container{
+	padding: 0 15px;}
+	
+.how_part_block .parent{
+	margin: 0;
+	width: 100%;}
+	
+.more_ways_inner{
+	margin: 0;
+	width: 100%;}
+	
+.more_ways_inner .line{
+	padding: 28px 10%;
+	width: 80%;}	
+	
+.meters{
+	left: 15px;}			
+	
+}
+
+@media screen and (max-width: 1100px){
+	
+header.header{
+	background-size: auto 900px;}
+	
+.about_block{
+	padding-top: 180px;}
+	
+.progress_block{
+	padding-top: 270px;}
+	
+}
+
+@media screen and (max-width: 1024px){
+	
+.progress_info_scale{
+	width: 790px;
+	height: 145px;}
+	
+.more_ways{
+	margin: 38px 0 67px 0;}	
+	
+}
+
+@media screen and (max-width: 960px){
+
+.donate_box{
+	width: 33.33%;}
+	
+header.header{
+	background-size: auto 750px;}
+	
+.about_block{
+	padding-top: 130px;}
+	
+.progress_block{
+	padding-top: 150px;}
+
+}
+
+@media screen and (max-width: 850px){
+	
+.progress_info_scale{
+	width: 650px;
+	height: 119px;}
+	
+}
+
+@media screen and (max-width: 800px){
+	
+.about_block .text{
+	width: 100%;}
+	
+.about_block .text p:first-child{
+	text-align: right;}
+	
+.about_block{
+	padding-top: 483px;}
+	
+.progress_block{
+	padding-top: 20px;}
+	
+header.header{
+	background-size: auto 550px;}
+	
+.title{
+	font-size: 34px;}	
+	
+}
+
+@media screen and (max-width: 768px){
+	
+.wrapper{
+	padding: 44px 0;}	
+	
+.donate_box .img{
+	height: 125px;}
+
+.donate_box .img span{
+	height: 125px;}	
+	
+.donate_box{
+	width: 50%;
+	margin: 0 0 18px 0;}
+	
+.more_ways_inner .line{
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+		  -ms-flex-flow: column wrap;
+			  flex-flow: column wrap;}		
+	
+.more_ways_inner .line .line_item{
+	width: 100%;
+	margin: 0 0 20px 0;}	
+	
+.more_ways_inner .line .line_item a.sub{
+	top: auto;}	
+	
+}
+
+@media screen and (max-width: 700px){
+	
+.progress_info_scale{
+	width: 450px;
+	height: 82px;}
+	
+.progress_info_result{
+	font-size: 24px;}	
+
+.progress_info_result span{
+	font-size: 51px;}	
+	
+span.progress_info_percent{
+	font-size: 40px;}	
+	
+a.sub{
+	padding: 11px 30px;
+	font-size: 18px;}	
+	
+a.more{
+	padding: 11px 20px;
+	font-size: 18px;}	
+		
+		
+}
+
+@media screen and (max-width: 600px){
+	
+header.header{
+	background-size: auto 450px;}
+	
+.about_block{
+	padding-top: 380px;}
+	
+}
+
+@media screen and (max-width: 500px){
+	
+.progress_info_scale{
+	width: 240px;
+	height: 44px;}
+	
+.progress_info_result{
+	font-size: 20px;}	
+
+.progress_info_result span{
+	font-size: 31px;}	
+	
+span.progress_info_percent{
+	font-size: 26px;}		
+	
+header.header{
+	background-size: auto 350px;}
+	
+.about_block{
+	padding-top: 290px;}
+	
+.wrapper{
+	padding: 22px 0;}	
+	
+}
+
+@media screen and (max-width: 480px){
+	
+.donate_box{
+	width: 100%;}
+	
+.progress_info_result{
+	text-align: center;}	
+	
+}
+
+@media screen and (max-width: 400px){
+	
+header.header{
+	background-size: auto 250px;}
+	
+.about_block{
+	padding-top: 190px;}
+	
+}
