@@ -41,14 +41,12 @@ img{
 	position: relative;
 	z-index: 1;}
 	
-	
-
 .container{
 	max-width: 1110px;
 	margin: 0 auto;
 	z-index: 2;
 	position: relative;}
-	
+
 @font-face{
   font-family: 'Calibri';
   src: url('../font/calibri.eot');
@@ -290,7 +288,8 @@ header.header {
 	.more_ways_inner .line .line_item{
 		position: relative;
 		width: 33.33%;
-		text-align: center;}   	   
+		text-align: center;
+		cursor: pointer;}   	   
 	  .more_ways_inner .line .line_item span.name{
 		  font-family: 'Calibri-Bold';
 		  font-size: 24px;

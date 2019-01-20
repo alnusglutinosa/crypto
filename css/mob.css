@@ -109,11 +109,16 @@ header.header{
 	  -webkit-box-orient: vertical;
 	  -webkit-box-direction: normal;
 		  -ms-flex-flow: column wrap;
-			  flex-flow: column wrap;}		
+			  flex-flow: column wrap;
+	width: 100%;
+	padding: 0;
+	border: 0;}		
 	
 .more_ways_inner .line .line_item{
 	width: 100%;
-	margin: 0 0 20px 0;}	
+    margin: 0;
+    padding: 40px 0;
+    border-bottom: 1px solid #bababa;}	
 	
 .more_ways_inner .line .line_item a.sub{
 	top: auto;}	
@@ -178,8 +183,21 @@ header.header{
 	padding-top: 290px;}
 	
 .wrapper{
-	padding: 22px 0;}	
+	padding: 22px 0;}
+
+#cryptodonate-dialog {
+	display: block;
+	position: fixed;
+	/* top: 10%;
+	left: 50%;
+	transform: translate(-50%,0); */
+	min-width: 400px;
+	max-width: 600px;
+	width: 50%;}
 	
+#cryptodonate-action {
+	padding-bottom: .15em;}
+
 }
 
 @media screen and (max-width: 480px){
@@ -189,6 +207,14 @@ header.header{
 	
 .progress_info_result{
 	text-align: center;}	
+
+#cryptodonate-dialog {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	min-width: auto;
+	max-width: 100%;
+	width: 100%;}
 	
 }
 
